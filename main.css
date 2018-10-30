@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Orbitron|Titan+One');
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Titan One', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  height: 100vh;
+  background-color: turquoise;
+}
+
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 100px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 70px;
+  padding: 5px;
+}
+
+.gameboard {
+  width: 700px;
+  height: 700px;
+  border: 5px solid black;
+  background: white;
+  /* margin-top: 10%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+
+}
+
+#player-name {
+  font-family:'Bangers', cursive;
+  font-size: 60px;
+  padding: 45px;
+  /* top: 15%; */
+}
+
+#score {
+  font-family: 'Titan One', cursive;
+  font-size: 50px;
+  padding: 10px;
+}
+
+#button-wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  width: 100%;
+  bottom: 0;
+  padding: 60px;
+}
+#roll, #reset {
+  font-family: 'Titan One', cursive;
+  font-size: 40px;
+  width: 200px;
+  bottom: 1em;
+  padding: 20px;
+}
+
+#roll {
+  margin-right: 5%
+}
